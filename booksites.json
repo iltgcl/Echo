@@ -1,0 +1,53 @@
+{
+    "websites": [
+        {
+            "id":"1",
+            "name":"草莓小说网",
+            "url":"https://www.cmxsw.com",
+            "ruleClassification":".second-cat-list > li:lt(8) [href]",
+            "ruleClassificationLink":"abs:href",
+            "ruleBookList":"#BookList > li",
+            "ruleBookLink":"abs:href",
+            "ruleBookName":"div.nrrk > .name a",
+            "ruleBookAuthor":"div.nrrk > .name span:nth-child(3)",
+            "ruleBookCoverUrl":"div.pic img",
+            "ruleBookCoverUrlAttr":"src",
+            "ruleBookSummary":"div.nrrk > p",
+            "ruleLastChapter":"div.nrrk > dl a",
+            "ruleChapters":".article_texttitleb > ul > li > a",
+            "ruleChapterLink":"abs:href",
+            "ruleChapterContent":"#book_text",
+            "ruleSearchKey":"https://www.cmxsw.com/modules/article/search.php?searchtype=keywords&searchkey=ECHOSEARCHKEY",
+            "ruleSearchResults":".grid > tbody > tr:gt(0)",
+            "ruleSearchBookName":"> .odd > a",
+            "ruleSearchBookLink":"href",
+            "ruleSearchBookAuthor":"> td:nth-child(3)",
+            "ruleSearchLastChapter":"> .even > a"
+        },
+        {
+            "id":"2",
+            "name":"",
+            "url":"",
+            "ruleClassification":"",
+            "ruleClassificationLink":"",
+            "ruleBookList":"",
+            "ruleBookLink":"",
+            "ruleBookName":"",
+            "ruleBookAuthor":"",
+            "ruleBookCoverUrl":"",
+            "ruleBookCoverUrlAttr":"",
+            "ruleBookSummary":"",
+            "ruleLastChapter":"",
+            "ruleChapters":"",
+            "ruleChapterLink":"",
+            "ruleChapterContent":"",
+            "ruleSearchKey":"",
+            "ruleSearchResults":"",
+            "ruleSearchBookName":"",
+            "ruleSearchBookLink":"",
+            "ruleSearchBookAuthor":"",
+            "ruleSearchLastChapter":""
+        }
+
+    ]
+}
