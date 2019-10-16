@@ -16,7 +16,7 @@
 
             "ruleBookCoverUrl":".novelinfo-r > a:nth-child(1) > img",
             "ruleBookSummary":".novelintro",
-            "ruleChapters":"div.card:nth-child(5) > div:nth-child(2) > ul:nth-child(1) > li",
+            "ruleChapters":"div.card:nth-child(5) > div:nth-child(2) > ul:nth-child(1) > li > a",
 
             "ruleChapterContent":"#chaptercontent",
 
