@@ -1,5 +1,5 @@
 {
-    "version":1,
+    "version":2,
     "websites": [
 	    {
             "id":5,
@@ -53,28 +53,53 @@
         },
 	    {
             "id":15,
-            "name":"",
-            "url":"",
+            "name":"168看书",
+            "url":"https://www.168kanshu.com",
 
-            "ruleClassification":"",
+            "ruleClassification":".location > p > a",
 
-            "ruleBookList":"",
-            "ruleBookName":"",
-            "ruleBookAuthor":"",
-            "ruleLastChapter":"",
+            "ruleBookList":".sitebox > dl",
+            "ruleBookName":"> dd:nth-child(2) > h3 > a",
+            "ruleBookAuthor":"> dd:nth-child(3) > span",
+            "ruleLastChapter":"> dd:nth-child(5) > a",
+            "ruleBookPage":"#pagelink > .pagelink > a:gt(3)",
+
+            "ruleBookCoverUrl":".pic > img",
+            "ruleBookSummary":".bookinfo_intro",
+            "ruleChapters":".book_list > ul > li > a",
+
+            "ruleChapterContent":"#htmlContent",
+
+            "ruleSearchKey":"https://www.wanjiexianwang.com/so/search.html?searchkey=ECHOSEARCHKEY",
+            "ruleSearchResults":".toplist > ul > li",
+            "ruleSearchBookName":"> .s1 > a",
+            "ruleSearchBookAuthor":"> .s3",
+            "ruleSearchLastChapter":"> .s2 > a"
+        },
+	{
+            "id":20,
+            "name":"骑士小说网",
+            "url":"https://www.xxs74.com",
+
+            "ruleClassification":".nav > ul > li:gt(1) > a[href~=^((?!sort|xiaoshuodaquan).)*$]",
+
+            "ruleBookList":"#newscontent > div > ul > li",
+            "ruleBookName":"> .s2 > a",
+            "ruleBookAuthor":"> .s4",
+            "ruleLastChapter":"> .s3 > a",
             "ruleBookPage":"",
 
-            "ruleBookCoverUrl":"",
-            "ruleBookSummary":"",
-            "ruleChapters":"",
+            "ruleBookCoverUrl":"#fmimg > img",
+            "ruleBookSummary":"#intro",
+            "ruleChapters":"#list > dl > dd > a",
 
-            "ruleChapterContent":"",
+            "ruleChapterContent":"#content",
 
-            "ruleSearchKey":"",
-            "ruleSearchResults":"",
-            "ruleSearchBookName":"",
-            "ruleSearchBookAuthor":"",
-            "ruleSearchLastChapter":""
+            "ruleSearchKey":"https://www.xxs74.com/novel.php?action=search&searchkey=ECHOSEARCHKEY|char=gbk",
+            "ruleSearchResults":".novelslist > ul > li",
+            "ruleSearchBookName":"> .s2 > a",
+            "ruleSearchBookAuthor":"> .s4",
+            "ruleSearchLastChapter":"> .s3 > a"
         },
         {
             "id":30,
@@ -100,6 +125,56 @@
             "ruleSearchBookName":"> td:nth-child(1) > a",
             "ruleSearchBookAuthor":"> td:nth-child(3)",
             "ruleSearchLastChapter":"> td:nth-child(2) > a"
+        },
+	{
+            "id":35,
+            "name":"文墨中文网",
+            "url":"https://www.kygso.com",
+
+            "ruleClassification":"ul.w100 > li > a:nth-child(1)",
+
+            "ruleBookList":"div.color7:gt(0)",
+            "ruleBookName":"> span:nth-child(2) > a",
+            "ruleBookAuthor":"> span:nth-child(4) > a",
+            "ruleLastChapter":"> span:nth-child(3) > a",
+            "ruleBookPage":".pt30 > a:gt(1)",
+
+            "ruleBookCoverUrl":"img.fl",
+            "ruleBookSummary":".compulsory-row-three > p",
+            "ruleChapters":".full > a",
+
+            "ruleChapterContent":"div.size16 > p:gt(0)",
+
+            "ruleSearchKey":"https://www.kygso.com/search/result.html?searchkey=ECHOSEARCHKEY",
+            "ruleSearchResults":"div.pt-rank-detail-middle",
+            "ruleSearchBookName":"> div:nth-child(1) > span:nth-child(1) > a:nth-child(2)",
+            "ruleSearchBookAuthor":"> div:nth-child(1) > span:nth-child(2) > span:nth-child(1) > a:nth-child(1)",
+            "ruleSearchLastChapter":"> div:nth-child(3) > span:nth-child(1) > a > span"
+        },
+	{
+            "id":40,
+            "name":"天籁小说",
+            "url":"https://www.23txt.com",
+
+            "ruleClassification":".nav > ul > li:gt(0) > a",
+
+            "ruleBookList":"#newscontent > .l > ul > li",
+            "ruleBookName":"> .s2 > a",
+            "ruleBookAuthor":"> .s5",
+            "ruleLastChapter":"> .s3 > a",
+            "ruleBookPage":"",
+
+            "ruleBookCoverUrl":"#fmimg > img",
+            "ruleBookSummary":"#intro",
+            "ruleChapters":"#list > dl > dd > a",
+
+            "ruleChapterContent":"#content",
+
+            "ruleSearchKey":"https://www.wanjiexianwang.com/so/search.html?searchkey=ECHOSEARCHKEY",
+            "ruleSearchResults":".result-game-item-detail",
+            "ruleSearchBookName":"> .result-item-title > a",
+            "ruleSearchBookAuthor":"> div:nth-child(3) > p:nth-child(1) > span:nth-child(2)",
+            "ruleSearchLastChapter":"> div:nth-child(3) > p:nth-child(4) > a:nth-child(2)"
         },
         {
             "id":50,
