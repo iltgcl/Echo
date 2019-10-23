@@ -16,7 +16,7 @@
 
             "ruleBookCoverUrl":".novelinfo-r > a:nth-child(1) > img",
             "ruleBookSummary":".novelintro",
-            "ruleChapters":"div.card:nth-child(5) > div:nth-child(2) > ul:nth-child(1) > li",
+            "ruleChapters":"div.card:nth-child(5) > div:nth-child(2) > ul:nth-child(1) > li > a",
 
             "ruleChapterContent":"#chaptercontent",
 
@@ -31,7 +31,7 @@
             "name":"八戒中文网",
             "url":"http://www.8jzw.cc",
 
-            "ruleClassification":".nav > ul > li:gt(0) > a",
+            "ruleClassification":".nav > ul > li:gt(0) > a[href^=/Book/LC/]",
 
             "ruleBookList":".l > ul > li",
             "ruleBookName":"> span:nth-child(1) > a",
@@ -106,7 +106,7 @@
             "name":"笔趣阁",
             "url":"https://www.kuxiaoshuo.com",
 
-            "ruleClassification":"div.nav > ul > li:gt(1) > a",
+            "ruleClassification":"div.nav > ul > li:gt(1) > a[href~=^((?!paihangbang|xiaoshuodaquan).)*$]",
 
             "ruleBookList":"div#newscontent li",
             "ruleBookName":"> .s2 > a",
