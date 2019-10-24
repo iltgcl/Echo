@@ -76,7 +76,7 @@
 
             "ruleChapterContent":"#htmlContent",
 
-            "ruleSearchKey":"https://www.wanjiexianwang.com/so/search.html?searchkey=ECHOSEARCHKEY",
+            "ruleSearchKey":"https://www.168kanshu.com/modules/article/search.php?action=login&searchkey=ECHOSEARCHKEY",
             "ruleSearchResults":".toplist > ul > li",
             "ruleSearchBookName":"> .s1 > a",
             "ruleSearchBookAuthor":"> .s3",
@@ -184,7 +184,7 @@
 
             "ruleChapterContent":"#content",
 
-            "ruleSearchKey":"https://www.wanjiexianwang.com/so/search.html?searchkey=ECHOSEARCHKEY",
+            "ruleSearchKey":"https://www.23txt.com/search.php?keyword=ECHOSEARCHKEY",
             "ruleSearchResults":".result-game-item-detail",
             "ruleSearchBookName":"> .result-item-title > a",
             "ruleSearchBookAuthor":"> div:nth-child(3) > p:nth-child(1) > span:nth-child(2)",
