@@ -76,7 +76,7 @@
 
             "ruleChapterContent":"#htmlContent",
 
-            "ruleSearchKey":"https://www.168kanshu.com/modules/article/search.php?action=login&searchkey=ECHOSEARCHKEY",
+            "ruleSearchKey":"https://www.168kanshu.com/modules/article/search.php?action=login&searchkey=ECHOSEARCHKEY|char=GBK",
             "ruleSearchResults":".toplist > ul > li",
             "ruleSearchBookName":"> .s1 > a",
             "ruleSearchBookAuthor":"> .s3",
@@ -103,7 +103,7 @@
 
             "ruleChapterContent":"#content",
 
-            "ruleSearchKey":"https://www.xxs74.com/novel.php?action=search&searchkey=ECHOSEARCHKEY",
+            "ruleSearchKey":"https://www.xxs74.com/novel.php?action=search&searchkey=ECHOSEARCHKEY|char=GBK",
             "ruleSearchResults":".novelslist > ul > li",
             "ruleSearchBookName":"> .s2 > a",
             "ruleSearchBookAuthor":"> .s4",
