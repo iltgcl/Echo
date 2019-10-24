@@ -5,6 +5,8 @@
             "id":5,
             "name":"零点小说",
             "url":"https://www.ypook.com",
+            "charset":"",
+            "state":0,
 
             "ruleClassification":"div.body > p a:gt(0)",
 
@@ -30,6 +32,8 @@
             "id":10,
             "name":"八戒中文网",
             "url":"http://www.8jzw.cc",
+            "charset":"",
+            "state":0,
 
             "ruleClassification":".nav > ul > li:gt(0) > a[href^=/Book/LC/]",
 
@@ -55,6 +59,8 @@
             "id":15,
             "name":"168看书",
             "url":"https://www.168kanshu.com",
+            "charset":"GBK",
+            "state":0,
 
             "ruleClassification":".location > p > a",
 
@@ -80,6 +86,8 @@
             "id":20,
             "name":"骑士小说网",
             "url":"https://www.xxs74.com",
+            "charset":"GBK",
+            "state":0,
 
             "ruleClassification":".nav > ul > li:gt(1) > a[href~=^((?!sort|xiaoshuodaquan).)*$]",
 
@@ -95,7 +103,7 @@
 
             "ruleChapterContent":"#content",
 
-            "ruleSearchKey":"https://www.xxs74.com/novel.php?action=search&searchkey=ECHOSEARCHKEY|char=gbk",
+            "ruleSearchKey":"https://www.xxs74.com/novel.php?action=search&searchkey=ECHOSEARCHKEY",
             "ruleSearchResults":".novelslist > ul > li",
             "ruleSearchBookName":"> .s2 > a",
             "ruleSearchBookAuthor":"> .s4",
@@ -105,6 +113,8 @@
             "id":30,
             "name":"笔趣阁",
             "url":"https://www.kuxiaoshuo.com",
+            "charset":"",
+            "state":0,
 
             "ruleClassification":"div.nav > ul > li:gt(1) > a[href~=^((?!paihangbang|xiaoshuodaquan).)*$]",
 
@@ -130,6 +140,8 @@
             "id":35,
             "name":"文墨中文网",
             "url":"https://www.kygso.com",
+            "charset":"",
+            "state":0,
 
             "ruleClassification":"ul.w100 > li > a:nth-child(1)",
 
@@ -155,6 +167,8 @@
             "id":40,
             "name":"天籁小说",
             "url":"https://www.23txt.com",
+            "charset":"GBK",
+            "state":0,
 
             "ruleClassification":".nav > ul > li:gt(0) > a",
 
@@ -180,6 +194,8 @@
             "id":50,
             "name":"草莓小说网",
             "url":"https://www.cmxsw.com",
+            "charset":"",
+            "state":0,
 
             "ruleClassification":".second-cat-list > li:lt(8) [href]",
 
@@ -205,6 +221,8 @@
             "id":100,
             "name":"",
             "url":"",
+            "charset":"",
+            "state":0,
 
             "ruleClassification":"",
 
