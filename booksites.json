@@ -21,6 +21,7 @@
             "ruleChapters":"div.card:nth-child(5) > div:nth-child(2) > ul:nth-child(1) > li > a",
 
             "ruleChapterContent":"#chaptercontent",
+            "ruleChapterContentNext":"",
 
             "ruleSearchKey":"http://www.ypook.com/so/search.html?searchtype=novelname&searchkey=ECHOSEARCHKEY",
             "ruleSearchResults":".librarylist li",
@@ -48,6 +49,7 @@
             "ruleChapters":"#list > dl > dd > a",
 
             "ruleChapterContent":"#content",
+            "ruleChapterContentNext":"",
 
             "ruleSearchKey":"http://www.8jzw.cc/search.php?keyword=ECHOSEARCHKEY",
             "ruleSearchResults":"div.result-item",
@@ -75,6 +77,7 @@
             "ruleChapters":".book_list > ul > li > a",
 
             "ruleChapterContent":"#htmlContent",
+            "ruleChapterContentNext":"div.chapter_Turnpage > a.next.pager_next:matches(下一页)",
 
             "ruleSearchKey":"https://www.168kanshu.com/modules/article/search.php?action=login&searchkey=ECHOSEARCHKEY|char=GBK",
             "ruleSearchResults":".toplist > ul > li",
@@ -82,7 +85,7 @@
             "ruleSearchBookAuthor":"> .s3",
             "ruleSearchLastChapter":"> .s2 > a"
         },
-	{
+	    {
             "id":20,
             "name":"骑士小说网",
             "url":"https://www.xxs74.com",
@@ -102,6 +105,7 @@
             "ruleChapters":"#list > dl > dd > a",
 
             "ruleChapterContent":"#content",
+            "ruleChapterContentNext":"div.text > .current+a",
 
             "ruleSearchKey":"https://www.xxs74.com/novel.php?action=search&searchkey=ECHOSEARCHKEY|char=GBK",
             "ruleSearchResults":".novelslist > ul > li",
@@ -129,6 +133,7 @@
             "ruleChapters":"div#list > dl > dd:gt(9) > a",
 
             "ruleChapterContent":"div#content",
+            "ruleChapterContentNext":"",
 
             "ruleSearchKey":"https://www.kuxiaoshuo.com/modules/article/search.php?searchkey=ECHOSEARCHKEY",
             "ruleSearchResults":".grid > tbody:nth-child(2) > tr:gt(0)",
@@ -156,6 +161,7 @@
             "ruleChapters":".full > a",
 
             "ruleChapterContent":"div.size16 > p:gt(0)",
+            "ruleChapterContentNext":"",
 
             "ruleSearchKey":"https://www.kygso.com/search/result.html?searchkey=ECHOSEARCHKEY",
             "ruleSearchResults":"div.pt-rank-detail-middle",
@@ -163,7 +169,7 @@
             "ruleSearchBookAuthor":"> div:nth-child(1) > span:nth-child(2) > span:nth-child(1) > a:nth-child(1)",
             "ruleSearchLastChapter":"> div:nth-child(3) > span:nth-child(1) > a > span"
         },
-	{
+	    {
             "id":40,
             "name":"天籁小说",
             "url":"https://www.23txt.com",
@@ -183,6 +189,7 @@
             "ruleChapters":"#list > dl > dd > a",
 
             "ruleChapterContent":"#content",
+            "ruleChapterContentNext":"",
 
             "ruleSearchKey":"https://www.23txt.com/search.php?keyword=ECHOSEARCHKEY",
             "ruleSearchResults":".result-game-item-detail",
@@ -210,6 +217,7 @@
             "ruleChapters":".article_texttitleb > ul > li > a",
 
             "ruleChapterContent":"#book_text",
+            "ruleChapterContentNext":"",
 
             "ruleSearchKey":"https://www.cmxsw.com/modules/article/search.php?searchtype=keywords&searchkey=ECHOSEARCHKEY",
             "ruleSearchResults":".grid > tbody > tr:gt(0)",
@@ -237,6 +245,7 @@
             "ruleChapters":"",
 
             "ruleChapterContent":"",
+            "ruleChapterContentNext":"",
 
             "ruleSearchKey":"",
             "ruleSearchResults":"",
