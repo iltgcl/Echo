@@ -1,5 +1,5 @@
 {
-    "version":2,
+    "version":3,
     "websites": [
 	    {
             "id":5,
@@ -201,7 +201,7 @@
             "id":50,
             "name":"草莓小说网",
             "url":"https://www.cmxsw.com",
-            "charset":"",
+            "charset":"GBK",
             "state":0,
 
             "ruleClassification":".second-cat-list > li:lt(8) [href]",
@@ -227,7 +227,7 @@
         },
         {
             "id":100,
-            "name":"",
+            "name":"本地导入",
             "url":"",
             "charset":"",
             "state":0,
