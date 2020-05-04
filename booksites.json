@@ -1,10 +1,10 @@
 {
-    "version":3,
+    "version":4,
     "websites": [
 	    {
             "id":5,
             "name":"零点小说",
-            "url":"https://www.ypook.com",
+            "url":"http://www.ypook.com",
             "charset":"",
             "state":0,
 
@@ -64,7 +64,7 @@
             "charset":"GBK",
             "state":0,
 
-            "ruleClassification":".location > p > a",
+            "ruleClassification":".location > p > a:gt(1)",
 
             "ruleBookList":".sitebox > dl",
             "ruleBookName":"> dd:nth-child(2) > h3 > a",
@@ -224,6 +224,146 @@
             "ruleSearchBookName":"> .odd > a",
             "ruleSearchBookAuthor":"> td:nth-child(3)",
             "ruleSearchLastChapter":"> .even > a"
+        },
+        {
+            "id":55,
+            "name":"完本神站",
+            "url":"https://www.wanbentxt.com",
+            "charset":"GBK",
+            "state":0,
+
+            "ruleClassification":".submenu > a",
+
+            "ruleBookList":".sortList > ul > li",
+            "ruleBookName":"> div:nth-child(2) > a",
+            "ruleBookAuthor":"> div:nth-child(2) > p:nth-child(3) > a",
+            "ruleLastChapter":"> div:nth-child(2) > p:nth-child(6) > a",
+            "ruleBookPage":".page > a",
+
+            "ruleBookCoverUrl":".detailTopLeft > img",
+            "ruleBookSummary":".detailTopMid > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(2)",
+            "ruleChapters":".chapter > ul > li > a",
+
+            "ruleChapterContent":".readerCon",
+            "ruleChapterContentNext":".next:matches(下一页)",
+
+            "ruleSearchKey":"https://www.wanbentxt.com/modules/article/search.php?searchtype=articlename&searchkey=ECHOSEARCHKEY|char=GBK",
+            "ruleSearchResults":".resultLeft > ul > li",
+            "ruleSearchBookName":"> div:nth-child(2) > a",
+            "ruleSearchBookAuthor":".author > a",
+            "ruleSearchLastChapter":"> div:nth-child(2) > p:nth-child(6) > a"
+        },
+        {
+            "id":60,
+            "name":"书包文学网",
+            "url":"http://www.shubaowx.com",
+            "charset":"",
+            "state":0,
+
+            "ruleClassification":"nav.container > a:gt(1)",
+
+            "ruleBookList":".flex > li",
+            "ruleBookName":"> div:nth-child(2) > a",
+            "ruleBookAuthor":"> div:nth-child(2) > div:nth-child(3) > a",
+            "ruleLastChapter":"",
+            "ruleBookPage":"#pagelink > strong+a",
+
+            "ruleBookCoverUrl":".novel_info_main > img:nth-child(1)",
+            "ruleBookSummary":".intro",
+            "ruleChapters":"#ul_all_chapters > li > a",
+
+            "ruleChapterContent":"#article",
+            "ruleChapterContentNext":"#next_url:matches(下一页)",
+
+            "ruleSearchKey":"http://www.shubaowx.com/search?searchtype=all&searchkey=ECHOSEARCHKEY",
+            "ruleSearchResults":"li.searchresult",
+            "ruleSearchBookName":"> div:nth-child(2) > a",
+            "ruleSearchBookAuthor":"> div:nth-child(2) > p:nth-child(2)",
+            "ruleSearchLastChapter":"> div:nth-child(2) > p:nth-child(4) > a"
+        },
+        {
+            "id":65,
+            "name":"笔下文学",
+            "url":"http://www.bxwx.tw",
+            "charset":"",
+            "state":0,
+
+            "ruleClassification":".nav > ul > li:gt(0) > a",
+
+            "ruleBookList":".l > ul > li",
+            "ruleBookName":"> span:nth-child(2) > a",
+            "ruleBookAuthor":"> span:nth-child(4)",
+            "ruleLastChapter":"> span:nth-child(3) > a",
+            "ruleBookPage":"",
+
+            "ruleBookCoverUrl":"#fmimg > img",
+            "ruleBookSummary":"#intro",
+            "ruleChapters":"#list > dl > dd > a",
+
+            "ruleChapterContent":"#content",
+            "ruleChapterContentNext":"",
+
+            "ruleSearchKey":"http://www.bxwx.tw/SearchBook.aspx?keyword=ECHOSEARCHKEY",
+            "ruleSearchResults":".novelslist2 > ul > li:gt(0)",
+            "ruleSearchBookName":"> span:nth-child(2) > a",
+            "ruleSearchBookAuthor":"> span:nth-child(4)",
+            "ruleSearchLastChapter":"> span:nth-child(3) > a"
+        },
+        {
+            "id":70,
+            "name":"若晨文学",
+            "url":"https://www.ffbook.cc",
+            "charset":"",
+            "state":0,
+
+            "ruleClassification":"ul.navbar-nav > li > a",
+
+            "ruleBookList":".table > tbody > tr:gt(0)",
+            "ruleBookName":"> td:nth-child(1) > a",
+            "ruleBookAuthor":"> td:nth-child(3)",
+            "ruleLastChapter":"> td:nth-child(2) > a",
+            "ruleBookPage":"#pagelink > li.active+li >a",
+
+            "ruleBookCoverUrl":".img-thumbnail",
+            "ruleBookSummary":"#bookIntro",
+            "ruleChapters":"#list-chapterAll > dl > dd > a",
+
+            "ruleChapterContent":"#wudidexiaoxiao",
+            "ruleChapterContentNext":"#linkNext:matches(下一页)",
+
+            "ruleSearchKey":"https://www.ffbook.cc/search?searchkey=ECHOSEARCHKEY",
+            "ruleSearchResults":".table > tbody > tr:gt(0)",
+            "ruleSearchBookName":"> td:nth-child(1) > a",
+            "ruleSearchBookAuthor":"> td:nth-child(3)",
+            "ruleSearchLastChapter":"> td:nth-child(2) > a"
+        },
+        {
+            "id":75,
+            "name":"笔趣阁2",
+            "url":"http://www.biquge.info",
+            "charset":"",
+            "state":0,
+
+            "ruleClassification":".nav > ul > li:gt(1) > a",
+
+            "ruleBookList":"#newscontent > div:nth-child(1) > ul:nth-child(2) > li",
+            "ruleBookName":"> span:nth-child(2) > a",
+            "ruleBookAuthor":"> span:nth-child(4)",
+            "ruleLastChapter":"> span:nth-child(3) > a",
+            "ruleBookPage":"#pagelink > strong:nth-child(4) + a",
+
+            "ruleBookCoverUrl":"#fmimg > img",
+            "ruleBookSummary":"#intro",
+            "ruleChapters":"#list > dl > dd > a",
+
+            "ruleChapterContent":"#content",
+            "ruleChapterContentNext":"",
+
+            "ruleSearchKey":"http://www.biquge.info/modules/article/search.php?searchkey=ECHOSEARCHKEY",
+            "ruleSearchResults":".grid > tbody > tr:gt(0)",
+            "ruleSearchBookName":"> td:nth-child(1) > a",
+            "ruleSearchBookAuthor":"> td:nth-child(3)",
+            "ruleSearchLastChapter":"> td:nth-child(2) > a"
         },
         {
             "id":100,
